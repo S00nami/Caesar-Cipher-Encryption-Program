@@ -26,7 +26,7 @@ def encryptMessage(message, cipherKey, alphabet):
 def decryptMessage(message, cipherKey, alphabet):
     decryptKey = -1 * int(cipherKey)
     return encryptMessage(message, decryptKey, alphabet)
- 
+
 def runCaesarCipherProgram():
     myAlphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     print(f'Alphabet: {myAlphabet}')
