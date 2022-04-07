@@ -41,5 +41,4 @@ def runCaesarCipherProgram():
     print(f'Encrypted Message: {myEncryptedMessage}')
     myDecryptedMessage = decryptMessage(myEncryptedMessage, myCipherKey, myAlphabet2)
     print(f'Decypted Message: {myDecryptedMessage}')
-
 runCaesarCipherProgram()
