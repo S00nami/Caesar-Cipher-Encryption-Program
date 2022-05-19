@@ -1,6 +1,6 @@
 def getDoubleAlphabet(alphabet):
     doubleAlphabet = alphabet + alphabet
-    return doubleAlph abet
+    return doubleAlphabet
    
 def getMessage():
     stringToEncrypt = input("Please enter a message to encrypt: ")
